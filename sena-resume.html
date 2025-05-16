@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sena Kaledzi | Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fa;
+      color: #333;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: #1c1c1c;
+      color: #eaeaea;
+    }
+
+    header {
+      background-color: #0a192f;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 0.5rem 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.5rem;
+      color: #0a192f;
+    }
+
+    body.dark-mode h2 {
+      color: #ffd700;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    ul.skills {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul.skills li {
+      background-color: #eef2f7;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+    }
+
+    body.dark-mode ul.skills li {
+      background-color: #2c2c2c;
+    }
+
+    .job {
+      margin-bottom: 2rem;
+    }
+
+    .job h3 {
+      margin-bottom: 0.3rem;
+      font-size: 1.2rem;
+      color: #102a43;
+    }
+
+    .job span {
+      float: right;
+      color: #666;
+      font-weight: normal;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #0a192f;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    .toggle-btn {
+      display: block;
+      margin: 1rem auto;
+      padding: 0.5rem 1rem;
+      background-color: #0a192f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Sena Kaledzi</h1>
+      <p>PMP, CSM, CSPO | Senior Project Manager | Data & Agile Enthusiast</p>
+      <p><a href="mailto:kale2861@gmail.com">kale2861@gmail.com</a> | New York, NY | <a href="https://www.linkedin.com/in/senakaledzi" target="_blank">LinkedIn</a> | <a href="https://github.com/kale2861" target="_blank">GitHub</a></p>
+      <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>I’m Sena Kaledzi, a certified Senior Project Manager with a passion for delivering innovative digital solutions. With over 5 years of experience leading Agile teams and executing data-driven strategies, I specialize in aligning technical projects with business goals. My background spans edtech, eCommerce, and client services, and I'm currently pursuing a Master's in Data Science to further enhance my ability to build impactful, analytical products. I bring a blend of project leadership, data insight, and customer-first thinking to every engagement.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><strong>Data Science:</strong> Python, R, SQL, BigQuery, Power BI, REST APIs</li>
+        <li><strong>Tools:</strong> Azure DevOps, JIRA, Git/GitHub, Postman</li>
+        <li><strong>Project Management:</strong> Scrum, Kanban, Agile, Waterfall, Risk Management</li>
+        <li><strong>Customer-Centric:</strong> UX/UI Collaboration, Data-Driven Problem Solving</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <div class="job">
+        <h3>Senior Project Manager, Follett Corporation <span>Dec 2022 - Oct 2024</span></h3>
+        <ul>
+          <li>Led global Agile teams to modernize legacy systems, boosting scalability.</li>
+          <li>Managed rollout of Oracle POS across 6,000+ registers with zero downtime.</li>
+          <li>Improved onboarding via EDI automation, reducing time by 25%.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>IT Data Project Manager, LY Berditchev Co <span>Feb 2022 - Dec 2022</span></h3>
+        <ul>
+          <li>Developed BigQuery pipelines & dashboards to track KPIs & P&L.</li>
+          <li>Integrated APIs for inventory automation, cutting manual labor by 40%.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Project Manager, Aucera <span>Apr 2019 - Mar 2022</span></h3>
+        <ul>
+          <li>Primary liaison for Fortune 500 clients, launched AI-powered IVR systems.</li>
+          <li>Produced compliance-driven agent scripting apps (HIPAA, PCI, GLBA).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education & Certifications</h2>
+      <ul>
+        <li><strong>MS Data Science</strong> - NY Institute of Technology (Expected 2026)</li>
+        <li><strong>BS Math-Physics</strong> - SUNY Fredonia</li>
+        <li>PMP | CSM | CSPO</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/kale2861/sickle-cell-image-classifiern" target="_blank">Sickle Cell Classifier</a> - AI image classifier using MobileNetV2.</li>
+        <li><a href="https://github.com/kale2861/nba-clutch-dashboard" target="_blank">NBA Clutch Dashboard</a> - Streamlit dashboard with FG% and shot logs.</li>
+        <li><a href="https://github.com/kale2861/spotify-audio-feature-explorer" target="_blank">Spotify Feature Explorer</a> - Data viz of audio features using Spotipy API.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sena Kaledzi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
